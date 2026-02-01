@@ -7,7 +7,7 @@ const socialLinks = {
     instagram:  "https://www.instagram.com/programadorofficial/",
     tiktok:     "https://www.tiktok.com/@programadorofficial",
     facebook:   "https://www.facebook.com/programadorofficial",
-    twitter:    "https://x.com/yourusername",           // أو twitter.com
+    twitter:    "https://x.com/fouadofficial5",           // أو twitter.com
     youtube:    "https://www.youtube.com/@programadorofficial1",
     snapchat:   "https://www.snapchat.com/add/yourusername",
     linkedin:   "https://www.linkedin.com/in/yourname",
