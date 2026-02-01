@@ -1,0 +1,163 @@
+/* style.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&family=Poppins:wght@400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Cairo', 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: #ffffff;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 15px;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.12);
+    backdrop-filter: blur(10px);
+    border-radius: 24px;
+    padding: 40px 28px;
+    width: 100%;
+    max-width: 420px;
+    text-align: center;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.35);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    transition: transform 0.3s ease;
+}
+
+.profile-section {
+    margin-bottom: 40px;
+}
+
+.profile-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid rgba(255, 255, 255, 0.35);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.4);
+    margin-bottom: 18px;
+    transition: transform 0.4s ease;
+}
+
+.profile-img:hover {
+    transform: scale(1.08) rotate(5deg);
+}
+
+h1 {
+    font-size: 2.1rem;
+    font-weight: 700;
+    margin-bottom: 8px;
+    text-shadow: 0 3px 10px rgba(0,0,0,0.4);
+}
+
+#username {
+    font-size: 1.15rem;
+    opacity: 0.9;
+    margin-bottom: 10px;
+}
+
+.links-section {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.social-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    width: 100%;
+    padding: 16px 20px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: white;
+    border: none;
+    border-radius: 16px;
+    cursor: pointer;
+    transition: all 0.28s ease;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
+    position: relative;
+    overflow: hidden;
+}
+
+.social-btn::before {
+    content: '';
+    position: absolute;
+    top: 0; left: -100%;
+    width: 100%; height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255,255,255,0.25), transparent);
+    transition: left 0.6s;
+}
+
+.social-btn:hover::before {
+    left: 100%;
+}
+
+.social-btn:hover {
+    transform: translateY(-4px) scale(1.03);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.35);
+}
+
+/* ألوان المنصات الرسمية (محدثة 2025-2026) */
+
+.instagram    { background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888); }
+.tiktok       { background: #000000; }
+.facebook     { background: #1877f2; }
+.twitter      { background: #1da1f2; }   /* أو #000 لـ X حسب الرغبة */
+.youtube      { background: #ff0000; }
+.snapchat     { background: #fffc00; color: #000; }
+.linkedin     { background: #0a66c2; }
+.whatsapp     { background: #25d366; }
+.telegram     { background: #229ed9; }
+.discord      { background: #5865f2; }
+.pinterest    { background: #e60023; }
+.reddit       { background: #ff4500; }
+
+/* hover خاص لكل منصة (تفتيح خفيف) */
+
+.instagram:hover    { background: linear-gradient(45deg, #ffb347, #ff7b5e, #ff4d6a, #e74c8a, #d81b60); }
+.tiktok:hover       { background: #111; }
+.facebook:hover     { background: #166fe5; }
+.twitter:hover      { background: #0d95e8; }
+.youtube:hover      { background: #cc0000; }
+.snapchat:hover     { background: #ffeb3b; }
+.linkedin:hover     { background: #004182; }
+.whatsapp:hover     { background: #20b358; }
+.telegram:hover     { background: #1e88e5; }
+.discord:hover      { background: #4752c4; }
+.pinterest:hover    { background: #bd081c; }
+.reddit:hover       { background: #ff3300; }
+
+/* footer */
+
+.footer {
+    margin-top: 40px;
+    font-size: 0.9rem;
+    opacity: 0.75;
+}
+
+/* responsive */
+
+@media (max-width: 480px) {
+    .container {
+        padding: 32px 20px;
+    }
+    
+    h1 {
+        font-size: 1.9rem;
+    }
+    
+    .social-btn {
+        padding: 15px 18px;
+        font-size: 1.05rem;
+    }
+}
