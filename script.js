@@ -4,14 +4,14 @@
 //   روابطك الشخصية - قم بتعديل هذا الجزء فقط
 // ────────────────────────────────────────────────
 const socialLinks = {
-    instagram:  "https://www.instagram.com/yourusername/",
-    tiktok:     "https://www.tiktok.com/@yourusername",
-    facebook:   "https://www.facebook.com/yourusername.or.page",
+    instagram:  "https://www.instagram.com/programadorofficial/",
+    tiktok:     "https://www.tiktok.com/@programadorofficial",
+    facebook:   "https://www.facebook.com/programadorofficial",
     twitter:    "https://x.com/yourusername",           // أو twitter.com
-    youtube:    "https://www.youtube.com/@yourchannel",
+    youtube:    "https://www.youtube.com/@programadorofficial1",
     snapchat:   "https://www.snapchat.com/add/yourusername",
     linkedin:   "https://www.linkedin.com/in/yourname",
-    whatsapp:   "https://wa.me/212600000000?text=مرحبا%20فؤاد%2C%20شفت%20رابطك",   // أضف رقمك مع رمز الدولة (مثال: 212 للمغرب)
+    whatsapp:   "https://wa.me/212642138756?text=مرحبا%20فؤاد%2C%20شفت%20رابطك",   // أضف رقمك مع رمز الدولة (مثال: 212 للمغرب)
     telegram:   "https://t.me/yourusername",
     discord:    "https://discord.gg/yourinvite",        // أو رابط المستخدم discord.com/users/...
     pinterest:  "https://www.pinterest.com/yourusername/",
